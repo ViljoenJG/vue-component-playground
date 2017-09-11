@@ -1,6 +1,7 @@
 <template>
   <div>
     <h2>Contact Us</h2>
+    <slot name="top"></slot>
 
     <form>
       <div class="form-group">
@@ -19,6 +20,7 @@
                placeholder="Enter your email address" />
       </div>
 
+      <slot></slot>
       <div class="form-group">
         <label class="control-label" for="message">Message</label>
         <textarea type="text"
@@ -28,7 +30,7 @@
         </textarea>
       </div>
 
-      <slot>
+      <slot name="bottom">
         <p>We will respond within 2 days</p>
       </slot>
 

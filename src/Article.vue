@@ -20,7 +20,7 @@
 
   export default {
     data: () => ({
-      title: 'Something is going down...',
+      title: 'A nice random article',
       published: new Date(),
       content,
       author: {

@@ -6,7 +6,9 @@
         <my-article></my-article>
         <hr>
         <contact-us>
-          <p>Please do not submit any sensitive information</p>
+          <p>Please include as much information as possible</p>
+          <p slot="top">Contact us and one of our representatives will get back to you as soon as possible.</p>
+          <p slot="bottom">Please do not submit any sensitive information</p>
         </contact-us>
       </div>
     </div>
